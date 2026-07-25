@@ -1,11 +1,289 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ram Lodhi - Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ram Lodhi | HR Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+position:fixed;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+background:#07111f;
+z-index:1000;
+}
+
+header h2{
+color:#38bdf8;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+.hero{
+
+display:flex;
+justify-content:center;
+align-items:center;
+padding:120px 8%;
+gap:60px;
+flex-wrap:wrap;
+min-height:100vh;
+
+}
+
+.hero img{
+
+width:300px;
+height:300px;
+border-radius:50%;
+border:6px solid #38bdf8;
+object-fit:cover;
+box-shadow:0 0 35px #38bdf8;
+
+}
+
+.hero-text h1{
+
+font-size:55px;
+
+}
+
+.hero-text h3{
+
+color:#38bdf8;
+margin:15px 0;
+
+}
+
+.btn{
+
+display:inline-block;
+margin-top:25px;
+padding:15px 30px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+
+}
+
+section{
+
+padding:90px 8%;
+
+}
+
+.title{
+
+font-size:40px;
+color:#38bdf8;
+margin-bottom:35px;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+.card{
+
+background:#162033;
+padding:30px;
+border-radius:15px;
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+footer{
+
+text-align:center;
+padding:30px;
+background:#07111f;
+
+}
+
+</style>
+
 </head>
-<body style="font-family:Arial;text-align:center;margin-top:100px;">
-    <h1>Welcome to My Portfolio</h1>
-    <h2>Ram Lodhi</h2>
-    <p>HR | Payroll | EPF | ESIC | Labour Law Professional</p>
+
+<body>
+
+<header>
+
+<h2>Ram Lodhi</h2>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<img src="profile.jpg">
+
+<div class="hero-text">
+
+<h1>Ram Lodhi</h1>
+
+<h3>Operational HR | Payroll | Statutory Compliance</h3>
+
+<p>
+
+5+ Years Experience in Payroll, EPF, ESIC, Labour Laws,
+Recruitment, HR Operations and Industrial Relations.
+
+</p>
+
+<a href="#" class="btn">Download Resume</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<p style="line-height:32px;font-size:18px;">
+
+Results-driven HR Professional with more than 5 years of experience in
+Manufacturing and FMCG industries.
+Specialized in Payroll Processing, Statutory Compliance,
+Employee Relations, Recruitment, Time Office,
+Performance Management and Labour Law Compliance.
+
+</p>
+
+</section>
+
+<section id="experience">
+
+<h2 class="title">Experience</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Sagar Cements Ltd.</h3>
+
+<p>
+
+Officer – HR & Admin<br>
+
+Apr 2024 - Present
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Velnik India Ltd.</h3>
+
+<p>
+
+Executive HR<br>
+
+2023 - 2024
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Motherson Sumi</h3>
+
+<p>
+
+Assistant HR & Admin<br>
+
+2020 - 2023
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Core Skills</h2>
+
+<div class="cards">
+
+<div class="card">Payroll Processing</div>
+<div class="card">EPF</div>
+<div class="card">ESIC</div>
+<div class="card">Professional Tax</div>
+<div class="card">Labour Law</div>
+<div class="card">Recruitment</div>
+<div class="card">Industrial Relations</div>
+<div class="card">Advanced Excel</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<p><b>Phone :</b> +91 7566643157</p>
+
+<p><b>Email :</b> Rambiharilodhi2k2@gmail.com</p>
+
+<p><b>Location :</b> Dhar, Madhya Pradesh</p>
+
+</section>
+
+<footer>
+
+<h3>© 2026 Ram Lodhi | HR Portfolio</h3>
+
+</footer>
+
 </body>
 </html>
